@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 10%;
+}
+a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+input{
+    margin-left: 100px;
+    margin-top: 8px;
+}
+.head{
+    background-image: url("DU_Logo.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paypal{
+    float: left;
+    margin-left: 200px;
+}
+.samsung{
+    float: left;
+}
+.amazon{
+    float: left;
+}
+.lenovo{
+    float: left;
+}
+.google{
+    float: left;
+}

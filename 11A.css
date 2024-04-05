@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.gradiant{
+    height: 630px;
+    width: 1410px;
+    background-image: linear-gradient(red,yellow);
+}

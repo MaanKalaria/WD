@@ -1,0 +1,19 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: red;
+    animation-duration: 3s;
+    position: relative;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.div1{animation-timing-function: linear; height: 50px;}
+.div2{animation-timing-function: ease; height: 50px;}
+.div3{animation-timing-function:ease-in; height: 50px;}
+.div4{animation-timing-function:ease-out; height: 50px;}
+.div5{animation-timing-function:ease-in-out; height: 50px;}
+@keyframes color {
+    from{left:0px}
+    to{left:500px}
+}

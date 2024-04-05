@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web-page</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		.B_I{
+			height: 1000px;
+			width: 100%;
+			background-image: url("./download.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 50px;
+		}
+
+		.header{
+			background-color: lightcyan;
+			width: 100%;
+			height: 420px;
+		}
+
+		.B{
+			margin-left: 10px;
+			border: solid red;
+			width: 50px;
+			height: 50px;
+			color: red;
+			font-size: 45px;
+			text-align: center;
+			float: left;
+			position: absolute;
+			top: 70px;
+			left: 80px;
+		}
+
+		.menu{
+			float: right;
+		}
+
+		.Home{
+			position: absolute;
+			color: red;
+			top: 80px;
+			left: 400px;
+		}
+		.Intro{
+			position: absolute;
+			top: 80px;
+			left: 460px;
+		}
+		.Service{
+			position: absolute;
+			top: 80px;
+			left: 530px;
+		}
+		.Page{
+			position: absolute;
+			top: 80px;
+			left: 600px;
+			background-color: lightcyan;
+		}
+		.contect{
+			position: absolute;
+			top: 80px;
+			left: 690px;
+		}
+
+		.search{
+			position: absolute;
+			float: right;
+			top: 80px;
+			left: 1100px;
+		}
+		.menlogo{
+		position: absolute;	
+		top: 30px;
+		left: 700px;
+		width: 150px;
+		height: 150px;
+		}
+
+		.Hi{
+			position: absolute;
+			top: 200px;
+			left: 150px;
+		}
+
+		.designer{
+			position: absolute;
+			top: 220px;
+			left: 150px;
+			font-size: 60px;
+		}
+
+		.i{
+			position: absolute;
+			top: 290px;
+			left: 150px;
+		}
+		.hire{
+			position: absolute;
+			top: 350px;
+			left: 150px;
+		}
+
+		.Company{
+			background-color: white;
+			width: 100%;
+			height: 500px;
+			left: 1px;
+		}
+
+		.paypal{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			top: 470px;
+			left: 100px;
+
+		}
+		.google{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			left: 400px;
+			top: 500px;
+		}
+		.samsung{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			left: 670px;
+			top: 480px;
+			
+		}
+		.lenovo{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			left: 950px;
+			top: 500px;
+		}
+
+		.amazon{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			left: 1200px;
+		}
+
+		.Year{
+			position: absolute;
+			top: 600px;
+			left: 150px;
+			font-size: 100px;
+		}
+
+		.OP{
+			position: absolute;
+			top: 700px;
+			left: 150px;
+			font-size: 30px;
+		}
+
+		.OP1{
+			position: absolute;
+			top: 620px;
+			left: 600px;
+			font-size: 25px;
+		}
+
+		.box1{
+			position: absolute;
+			background-color: black;
+			color: white;
+			height: 230px;
+			width: 200px;
+			top: 700px;
+			left: 600px;
+			border-radius: 10px;
+			transition: 0.5s;
+			cursor:pointer;
+		}
+		.box1:hover{
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+
+		.circle1{
+			margin-left: 65px;
+			margin-top: 50px;
+			width: 60px;
+			height: 57px;
+			background-color: red;
+			border-radius: 65px;
+		}
+
+
+		.bulb{
+			margin-top: 50px;
+			margin-left: 8px;
+			font-size: 30px;
+		}
+
+		.Creative{
+			margin-top: 40px;
+			font-size: 25px;
+			margin-left: 10px;
+		}
+
+		.more{
+			margin-left: 13px;
+			margin-top: 10px;
+		}
+
+		.box2{
+			position: absolute;
+			background-color: lightcyan;
+			color: black;
+			height: 230px;
+			width: 200px;
+			top: 700px;
+			left: 850px;
+			border-radius: 10px;
+			transition: 0.5s;
+			cursor:pointer;
+		}
+		.box2:hover{
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+
+		.circle2{
+			margin-left: 65px;
+			margin-top: 50px;
+			width: 60px;
+			height: auto;
+		}
+ 
+		.web{
+			margin-left: 15px;
+			margin-top: 30px;
+			font-size: 25px;
+		}
+
+		.box3{
+			position: absolute;
+			background-color: lightcyan;
+			color: black;
+			height: 230px;
+			width: 200px;
+			top: 700px;
+			left: 1100px;
+			border-radius: 10px;
+			transition: 0.5s;
+			cursor:pointer;
+		}
+		.box3:hover{
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+
+		.circle3{
+			margin-left: 65px;
+			margin-top: 50px;
+			width: 60px;
+			height: auto;
+		}
+
+		.Brand{
+			margin-left: 15px;
+			margin-top: 30px;
+			font-size: 25px;
+		}
+        .pic{
+            position: absolute;
+            left: 800px;
+            top: 23px;
+        }
+        .pic img{
+            height: 400px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+	</style>
+</head>
+<body>
+    <div class="B_I">
+    	<div class="header">
+
+    		<div class="B">
+    			B.
+    		</div>
+    		<div class="menu">
+    			<div class="Home"><a href="#" style="text-decoration: none; color: black;">Home</a></div>
+    		    <div class="Intro"><a href="#" style="text-decoration: none; color: black">My Intro</a></div>
+    		    <div class="Service" ><a href="#" style="text-decoration: none; color: black">Services</a></div>
+    		    <div class="Page"><select style="border: 0px; background-color: transparent;">
+    				<option>Pages</option>
+    				<option>Page 1</option>
+    				<option>Page 2</option></select>
+    			</div>
+    		    <div class="contect"><a href="#" style="text-decoration: none; color: black">Contect</a></div>
+    		</div>
+
+    		<div class="search">
+    			<input type="text" name="" placeholder="Enter Keyword..." style="border-radius: 10px; padding: 5px; border: 1;">
+    			<input type="button" value="search" style="background-color: red; border-radius: 10px; color: white; padding: 5px; border: 0;">
+    		</div>
+
+    		<div class="Hi">Hi, I'm Mary Ateer</div>
+    		<div class="designer">DESIGNER</div>
+    		<div class="i">I Love to work in UI/UX Designing. I always try My best to make <br> good UI with the best UX.</div>
+    		<div class="hire">
+    			<input type="button" value="Hire Me" style="background-color: red; padding: 10px 20px; border:0; border-radius: 50px; color: white;">
+    		</div>
+            <div class="pic">
+                <img src="DU_Logo.jpg">
+            </div>
+
+    		<div class="menlogo"><img src="D:\Web Designing\Lab-8\download.png"></div>
+    	</div>
+    	<div class="Company">
+    		<div><img src="https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png" class="paypal" href="https://www.paypal.com/in/home"></div>
+        	<div><img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="google" href="https://www.google.co.in/"></div>
+        	<div><img src="https://www.shutterstock.com/image-vector/samsung-logo-icon-south-korean-260nw-2269709285.jpg" class="samsung" href="https://www.samsung.com/in/"></div>
+        	<div><img src="https://p4-ofp.static.pub/fes/cms/2022/11/14/h82es5y402b4rh1089sf86ay7n9sdl721044.png" class="lenovo" href="https://www.lenovo.com/in/en/"></div>
+        	<div><img src="https://purepng.com/public/uploads/large/amazon-logo-s3f.png" class="amazon"></div>
+
+        	<div class="Year"><b>22</b></div>
+        	<div class="OP">Years Of Experiences<br>Working</div>
+
+        	<div class="OP1"><b>I'm Designer & Developer with a passion for <br> web design</b></div>
+
+        	<div class="box1">
+        		<div class="circle1">
+        			<div class="bulb">💡</div>
+        			</div>
+        		<div class="Creative">Creative Design</div>
+        		<div class="more">Explore more →</div>
+        	</div>
+
+        	<div class="box2">
+        		<div><img src="https://www.thedeltacompanies.com/content/uploads/2021/02/DPP-Client-Portal-Icon@2x.png" class="circle2"></div>
+        		<div class="web">Web Design</div>
+        	</div>
+
+        	<div class="box3">
+        		<div><img src="https://www.fujitsu.com/global/imagesgig5/icon-Platform-Applications_tcm100-3526089_tcm100-2750236-32.png" class="circle3"></div>
+        		<div class="Brand">Brand Identity</div>
+        	</div>
+    	</div>
+    	
+    </div>
+</body>
+</html>

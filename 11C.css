@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    background-color: #030057;
+}
+div{
+    float: left;
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
+.gra1{
+    background-image: linear-gradient(135deg,lightgreen,cyan,pink);
+    border-radius: 10px;
+}
+.gra2{
+    background-image: linear-gradient(45deg,lightgreen,lightblue);
+    border-radius: 10px;
+}
+.gra3{
+    background-image: linear-gradient(135deg,#f0b686,#d262b4,#5956cd);
+    border-radius: 10px;   
+    margin-right: 500px;
+}
+.gra4{
+    background-image: linear-gradient(135deg,#ff8da4,#ff6d8a,#ff9283);
+    border-radius: 10px;
+}
+.gra5{
+    background-image: linear-gradient(135deg,#8e91fa,#d7b4fe,#efabe1);
+    border-radius: 10px;
+}
+.gra6{
+    background-image: linear-gradient(45deg,#f38430,#db2627,#d93dbb);
+    border-radius: 10px;
+    margin-right: 500px;
+}
+.gra7{
+    background-image: linear-gradient(135deg,#ed3daf,#7f4aa3,#4279bf);
+    border-radius: 10px;
+}
+.gra8{
+    background-image: linear-gradient(135deg,#e9ba1b,#fef2b2);
+    border-radius: 10px;
+}
+.gra9{
+    background-image: linear-gradient(135deg,#ff8ea5,#fe6987,#ff8ea5);
+    border-radius: 10px;
+    margin-right: 500px;
+}
+.gra10{
+    background-image: linear-gradient(135deg,#f7f187,#9bf2bd);
+    border-radius: 10px;
+}
+.gra11{
+    background-image: linear-gradient(45deg,#faf4c4,#fecacc,#cdd1f8);
+    border-radius: 10px;   
+}
+.gra12{
+    background-image: linear-gradient(to bottom,#ee4589,#ee4742,#eca017);
+    border-radius: 10px;
+    margin-right: 500px;
+}
+.gra13{
+    background-image: linear-gradient(45deg,#fbefc6,#81a5a1);
+    border-radius: 10px;
+}
+.gra14{
+    background-image: linear-gradient(45deg,#dd8e70,#ab59a4,#7a34bd,#7a34bd);
+    border-radius: 10px;
+}
+.gra15{
+    background-image: linear-gradient(45deg,#3ddc7c,#4e5fc3);
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+.top{
+height: 130px;
+width: 100%;
+}
+.logo{
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+.image{
+  left: 100px;
+}
+.links{
+  float: right;
+  text-decoration: none;
+  bottom: 35px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.mid{
+  float: left;
+  height: 600px;
+  width: 100%;
+}
+.bottom{
+  float: left;
+  width: 100%;
+  height: 290px;  
+}
+a:link{
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+}
+.aa{
+  position: relative;
+  bottom: 380px;
+  left: 550px;
+}
+.bb{
+  position: relative;
+  bottom: 400px;
+  left: 550px;
+}
+.cointainer1{
+  margin-left: 50px;
+  margin-top: -150px;
+  width: 200px;
+  height: 230px;
+  border: 2px solid red;
+  float: left;
+}
+.cointainer2{
+  float: left;
+  margin-left: 50px;
+  margin-top: -150px;
+  width: 200px;
+  height: 230px;
+  border: 2px solid red;
+}
+.cointainer3{
+  float: left;
+  margin-left: 50px;
+  margin-top: -150px;
+  width: 200px;
+  height: 230px;
+  border: 2px solid red;
+}
+.cointainer4{
+  float: left;
+  margin-left: 50px;  
+  margin-top: -150px;
+  width: 200px;
+  height: 230px;
+  border: 2px solid red;
+}

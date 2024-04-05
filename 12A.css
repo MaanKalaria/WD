@@ -1,0 +1,21 @@
+a{
+    color: orange;
+}
+a:visited{
+    color: red;
+}
+.p1::first-letter{
+    font-size: xx-large;
+    color: red;
+}
+.p2::first-line{
+    background-color: aqua;
+    font-size: larger;
+}
+.p2:hover{
+    color: red;
+}
+.p1::selection{
+    background-color: red;
+    color: yellow;
+}

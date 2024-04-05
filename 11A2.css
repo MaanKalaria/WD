@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.Gradiant{
+    height: 630px;
+    width: 1410px;
+    background-image: radial-gradient(red,yellow,green);
+}

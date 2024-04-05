@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+.top{
+    background-color: gray;
+    height: 150px;
+    border-bottom: 5px solid darkgreen;
+}
+.logo1{
+    float: left;
+    margin: 10px;
+}
+.logo1:hover{
+    cursor: pointer;
+}
+a:link{
+    float: right;
+    text-decoration: none;
+    color: beige;
+    margin: 10px;
+}
+a:visited{
+color: beige;
+}
+a:hover{
+    cursor: cell;
+}
+h3{
+    position: relative;
+    top: 120px;
+    right: 100px;
+    color: aqua;
+}
+hr{
+    background-color: greenyellow;
+}
+.mid{
+    padding: 20px;
+    border: 2px solid green;
+    margin-top: 5px;
+    height: 150px;
+}
+.img1{
+    float: left;
+}
+.txt1{
+   margin-left: 500px;
+   margin-top: -20px;
+}
+button{
+    border-radius: 34px;
+    width: 90px;
+    padding: 7px;
+    background-color: aquamarine;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.right{
+    padding: 5px;
+}
+.i1{
+    float: left;
+    margin-right: 10px;
+}
